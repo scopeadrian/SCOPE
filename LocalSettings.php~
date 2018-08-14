@@ -122,6 +122,8 @@ wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
 wfLoadSkin( 'Vector' );
 
+#permissions
+$wgGroupPermissions['*']['edit'] = false;
 
 # End of automatically generated settings.
 # Add more configuration options below.
