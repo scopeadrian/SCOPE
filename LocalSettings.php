@@ -122,9 +122,6 @@ wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
 wfLoadSkin( 'Vector' );
 
-# Ms Calendar
-wfLoadExtensions('MsCalendar');
-
 #permissions
 $wgGroupPermissions['*']['edit'] = false;
 
